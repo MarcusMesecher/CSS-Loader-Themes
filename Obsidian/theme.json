@@ -1,0 +1,90 @@
+{
+	"id": "f16cf40d-7ccc-4981-95bf-77b28e8d101e",
+	"name": "Obsidian",
+	"author": "EMERALD#0874",
+	"target": "Other",
+	"version": "v3.3",
+	"manifest_version": 5,
+	"inject": {
+		"shared.css": [
+			"SP"
+		]
+	},
+	"dependencies": {},
+	"patches": {
+		"Main Color": {
+			"type": "dropdown",
+			"default": "Dark Gray",
+			"values": {
+				"Black": {},
+				"Dark Gray": {
+					"dark-gray.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Gray": {
+					"gray.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Red": {
+					"red.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Orange": {
+					"orange.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Yellow": {
+					"yellow.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Green": {
+					"green.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Blue": {
+					"blue.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Indigo": {
+					"indigo.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Violet": {
+					"violet.css": [
+						"SP",
+						"notificationtoasts.*"
+					]
+				},
+				"Custom": {}
+			},
+			"components": [
+				{
+					"name": "Background Color",
+					"type": "color-picker",
+					"on": "Custom",
+					"default": "#000",
+					"css_variable": "--obsidian-main-color",
+					"tabs": [
+						"SP"
+					]
+				}
+			]
+		}
+	}
+}
