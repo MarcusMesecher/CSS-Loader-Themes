@@ -1,0 +1,198 @@
+:root {
+  --new-background-color: #000;
+  --new-button-glow: #ffffff90;
+}
+
+/* HOME PAGE */
+
+/* Change BG Color */
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+  background: var(--new-background-color);
+}
+.gamepadhome_TabbedContent_cE1Sa {
+  background: var(--new-background-color);
+}
+.gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
+  background: -webkit-gradient(
+      linear,
+      left 80%,
+      left 90%,
+      from(rgba(0, 0, 0, 0)),
+      to(var(--new-background-color))
+    ),
+    -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(1%, var(--new-background-color)), color-stop(5%, rgba(0, 0, 0, 0)), color-stop(95%, rgba(0, 0, 0, 0)), color-stop(99%, var(--new-background-color)));
+}
+
+/* LIBRARY */
+
+/* Change BG Color */
+.gamepadlibrary_GamepadLibrary_ZBBhe {
+  background: var(--new-background-color);
+}
+.steamdeckcompatfilter_CompatFilterDialog_21qvB {
+  background: var(--new-background-color);
+}
+.allcollections_Collection_3IWn- {
+  background: var(--new-background-color);
+}
+
+/* GAME DETAILS */
+
+/* Change BG Color */
+.basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
+  background: var(--new-background-color) !important;
+}
+.DeckVerifiedModalDialogClient .DialogContent,
+.DeckVerifiedModalDialog .DialogContent {
+  background: var(--new-background-color);
+}
+
+/*  STEAM INPUT */
+
+/* Change BG Color */
+.controllerconfigurator_TopSection_20sN9 {
+  background: var(--new-background-color);
+}
+.controllerconfigurator_ControllerConfiguratorMain_APY6j {
+  background: var(--new-background-color);
+}
+.controllerconfigurator_BottomSection_3RsRf {
+  background: var(--new-background-color);
+}
+.gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
+  background: var(--new-background-color);
+}
+.gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
+  background: var(--new-background-color);
+}
+.gamepadpage_GamepadPage_2FqpD.gamepadpage_DialogBackground_2msTK {
+  background: var(--new-background-color);
+}
+.controllerconfigurator_interstitial_ConfiguratorInterstitialContainer_3FS5u {
+  background: var(--new-background-color);
+}
+.controllerconfiguratorsummary_ControllerConfiguratorSummary_3TvBV {
+  background: var(--new-background-color);
+}
+.controllerconfiguratorchoosebinding_CardinalButtonGroup_3-2qP.controllerconfiguratorchoosebinding_Circle_XDwww::before {
+  z-index: 10;
+}
+.controllerconfiguratorchoosebinding_CardinalButtonGroup_3-2qP.controllerconfiguratorchoosebinding_Diamond_32vdo::before {
+  z-index: 10;
+}
+
+/* FRIENDS & CHAT */
+
+/* Change BG Color */
+.GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
+  background: var(--new-background-color);
+}
+.GamepadMode.friendlist {
+  background-color: var(--new-background-color);
+  background: var(--new-background-color);
+}
+.GamepadMode.friendlist.gpfocuswithin {
+  background-color: var(--new-background-color);
+  background: var(--new-background-color);
+}
+.multiChatDialog.GamepadMode,
+.GamepadMode .multiChatDialog {
+  background: var(--new-background-color);
+}
+.multiChatDialog.GamepadMode.gpfocuswithin,
+.GamepadMode .multiChatDialog.gpfocuswithin {
+  background-color: var(--new-background-color);
+  background: var(--new-background-color);
+}
+.friendinvites_InvitesList_3i8Fo {
+  background-color: var(--new-background-color);
+}
+
+/* DOWNLOADS */
+
+/* Change BG Color */
+.downloads_DownloadsPage_1bq4x {
+  background: var(--new-background-color);
+}
+.downloadgraph_HeroAndLogo_3mZ2r.downloadgraph_Empty_pHDI1 {
+  background: var(--new-background-color);
+}
+.downloadgraph_GraphAndStats_3KDkL {
+  background: var(--new-background-color);
+}
+.BasicUI .libraryassetimage_GreyBackground_2E7G8 {
+  background: var(--new-background-color);
+}
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL {
+  background: var(--new-background-color);
+}
+
+/* SETTINGS */
+
+/* Change BG Color */
+.BasicUI .librarysettings_LibrarySettings_2nsOY {
+  background: var(--new-background-color);
+}
+.BasicUI .contentmanagement_ContentManagement_3wk64 {
+  background: var(--new-background-color);
+}
+
+/* Navigation */
+.mainmenu_Menu_23IDi {
+  background: var(--new-background-color);
+}
+/* Power menu */
+.gamepadui_GamepadDialogOverlay_34Euf .ModalOverlayBackground {
+  background: var(--new-background-color) 000dd;
+}
+/* Search */
+.gamepadsearch_GamepadSearch_P_AlE {
+  background: var(--new-background-color);
+}
+
+/* Media upload */
+.gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
+  background: var(--new-background-color);
+}
+/* Notification */
+
+/* Notification (Stable) */
+.notificationcontent_ShortTemplate_2w-Eq,
+.notificationcontent_PinnedTemplate_H_NPi,
+.notificationcontent_StandardTemplate_1B_uv,
+.notificationcontent_ShortTemplate_nwer8,
+.notificationcontent_StandardTemplate_5HZT7,
+.notificationcontent_PinnedTemplateDesktop_1-8YO,
+.notificationcontent_PinnedTemplate_1X-O1 {
+  background: var(--new-background-color);
+}
+
+/* Notification (Beta) */
+.shorttemplates_ShortTemplate_29NLb {
+  background: var(--new-background-color);
+}
+
+/* Loading Screen */
+.loadingthrobber_Container_3sa1N,
+.loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
+  background: var(--new-background-color);
+}
+.spinnyboi {
+  background: var(--new-background-color);
+}
+/* Lock screen */
+.lockscreen_Container_3rFFU {
+  background: var(--new-background-color);
+}
+/* Console */
+.console_Console_1fuML {
+  background-color: var(--new-background-color);
+}
+.console_Suggestion_3C1UC {
+  color: #ffffff;
+}
+
+/* Settings Container */
+.settings-container {
+  background-color: var(--new-background-color);
+}

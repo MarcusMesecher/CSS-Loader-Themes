@@ -1,0 +1,35 @@
+{
+  "id": "",
+  "name": "Custom Background Colors",
+  "author": "mmese#4165",
+  "target": "Other",
+  "version": "v1.0",
+  "manifest_version": 5,
+  "inject": {
+    "shared.css": ["SP"]
+  },
+  "dependencies": {},
+  "patches": {
+    "Main Color": {
+      "type": "dropdown",
+      "default": "Dark Gray",
+      "values": {
+        "Black": {},
+        "Dark Gray": {
+          "dark-gray.css": ["SP", "notificationtoasts.*"]
+        },
+        "Custom": {}
+      },
+      "components": [
+        {
+          "name": "Background Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#000",
+          "css_variable": "--new-background-color",
+          "tabs": ["SP"]
+        }
+      ]
+    }
+  }
+}
