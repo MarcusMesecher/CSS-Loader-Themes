@@ -12,11 +12,11 @@
   "patches": {
     "Main Color": {
       "type": "dropdown",
-      "default": "Dark Gray",
+      "default": "Grey",
       "values": {
         "Black": {},
-        "Dark Gray": {
-          "dark-gray.css": ["SP", "notificationtoasts.*"]
+        "Grey": {
+          "grey.css": ["SP", "notificationtoasts.*"]
         },
         "Custom": {}
       },
