@@ -135,7 +135,6 @@
 .BasicUI .contentmanagement_ContentManagement_3wk64 {
   background: var(--new-background-color);
 }
-
 /* Navigation */
 .mainmenu_Menu_23IDi {
   background: var(--new-background-color);
@@ -148,11 +147,11 @@
 .gamepadsearch_GamepadSearch_P_AlE {
   background: var(--new-background-color);
 }
-
 /* Media upload */
 .gamepaddialog_ModalPosition_30VHl > .gamepaddialog_GamepadDialogContent_3joNk {
   background: var(--new-background-color);
 }
+
 /* Notification */
 
 /* Notification (Stable) */
@@ -165,12 +164,10 @@
 .notificationcontent_PinnedTemplate_1X-O1 {
   background: var(--new-background-color);
 }
-
 /* Notification (Beta) */
 .shorttemplates_ShortTemplate_29NLb {
   background: var(--new-background-color);
 }
-
 /* Loading Screen */
 .loadingthrobber_Container_3sa1N,
 .loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
@@ -190,7 +187,6 @@
 .console_Suggestion_3C1UC {
   color: #ffffff;
 }
-
 /* Settings Container */
 .settings-container {
   background-color: var(--new-background-color);
